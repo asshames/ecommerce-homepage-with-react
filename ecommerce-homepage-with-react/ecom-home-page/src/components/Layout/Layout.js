@@ -5,7 +5,7 @@ const layout = (props) => {
     return (
         <Aux>
             <div>
-                SAVE MORE ON APP, BECOME A MERCHANT, CAMPAIGN, TRACK MY ORDER, PRESS RELEASE, MYSHOP LEARNING
+                Toolbar, Menu, Information
             </div>
             <main>
                 {props.children}
