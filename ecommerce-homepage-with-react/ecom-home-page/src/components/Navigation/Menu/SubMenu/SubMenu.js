@@ -12,6 +12,8 @@ const SubMenu = () => {
             <NavigationItem>TRACK MY ORDER</NavigationItem>
             <NavigationItem>PRESS RELEASE</NavigationItem>
             <NavigationItem>MYSHOP LEARNING</NavigationItem>
+            <NavigationItem>English</NavigationItem>
+            <NavigationItem>+880 XXXX XXXX</NavigationItem>
         </ul>
     )
 }
