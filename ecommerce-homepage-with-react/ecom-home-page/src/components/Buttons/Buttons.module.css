@@ -1,0 +1,23 @@
+.Buttons{
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px ;
+}
+
+.Buttons button{
+    flex: 1;
+    align-items: center;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    background-color: rgb(223, 223, 223);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Buttons button:hover{
+    color: rgb(68, 71, 235);
+    transition: all .5s ease;
+}

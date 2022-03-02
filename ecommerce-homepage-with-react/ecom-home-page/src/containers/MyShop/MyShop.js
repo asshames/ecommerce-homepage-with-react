@@ -3,6 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import Aux from "../../hoc/Auxilary/Auxillary";
 import Slider from "../../components/Slider/Slider";
 import News from "../../components/News/News";
+import Buttons from "../../components/Buttons/Buttons";
 
 const MyShop = () => {
     return (
@@ -10,7 +11,7 @@ const MyShop = () => {
             <Layout />
             <Slider />
             <News />
-            <div>ShopMall, District, Campaigns, Services</div>
+            <Buttons />
             <div>Today's Deal</div>
             <div>Winter Collections</div>
             <div>Electronics</div>
