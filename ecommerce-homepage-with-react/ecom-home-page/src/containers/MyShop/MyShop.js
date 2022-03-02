@@ -4,6 +4,7 @@ import Aux from "../../hoc/Auxilary/Auxillary";
 import Slider from "../../components/Slider/Slider";
 import News from "../../components/News/News";
 import Buttons from "../../components/Buttons/Buttons";
+import TodaysDeal from "../../components/TodaysDeal/TodaysDeal";
 
 const MyShop = () => {
     return (
@@ -12,7 +13,7 @@ const MyShop = () => {
             <Slider />
             <News />
             <Buttons />
-            <div>Today's Deal</div>
+            <TodaysDeal />
             <div>Winter Collections</div>
             <div>Electronics</div>
             <div>Women's Collection</div>
