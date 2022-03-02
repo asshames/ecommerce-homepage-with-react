@@ -28,10 +28,10 @@ const SearchBar = () => {
                     }}>
                 </input>
                 <button style={{
-                    color: "white",
-                    backgroundColor: "blue",
+                    color: "black",
+                    backgroundColor:"white",
                     alignItems:"center"
-                }}><Search /></button>
+                }}><Search style={{fontSize:"20px"}}/></button>
             </div>
 
             <p style={{
