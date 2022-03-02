@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Layout from "../../components/Layout/Layout";
 import Aux from "../../hoc/Auxilary/Auxillary";
+import Slider from "../../components/Slider/Slider";
 
 class MyShop extends Component{
     render() {
         return (
             <Aux>
-                <Layout/>
-                <div>Slider</div>
+                <Layout />
+                <Slider />
                 <div>News</div>
                 <div>ShopMall, District, Campaigns, Services</div>
                 <div>Today's Deal</div>
