@@ -6,6 +6,7 @@ import News from "../../components/News/News";
 import Buttons from "../../components/Buttons/Buttons";
 import TodaysDeal from "../../components/TodaysDeal/TodaysDeal";
 import Collections from "../../components/Collections/Collections";
+import Flooter from "../../components/Flooter/Flooter";
 
 const MyShop = () => {
     return (
@@ -16,8 +17,7 @@ const MyShop = () => {
             <Buttons />
             <TodaysDeal />
             <Collections />
-            <div>Just For You</div>
-            <div>Flooter</div>
+            <Flooter />
         </Aux>
     );
 };
