@@ -1,0 +1,8 @@
+.Logo{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 30px;
+    background-color: white;
+    cursor: pointer;
+}
