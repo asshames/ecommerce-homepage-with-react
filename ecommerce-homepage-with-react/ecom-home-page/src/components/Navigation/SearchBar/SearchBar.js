@@ -27,7 +27,11 @@ const SearchBar = () => {
                     border: 'none'
                     }}>
                 </input>
-                <button><Search/></button>
+                <button style={{
+                    color: "white",
+                    backgroundColor: "blue",
+                    alignItems:"center"
+                }}><Search /></button>
             </div>
 
             <p style={{
